@@ -42,7 +42,5 @@ if userKey!="":
 	strKey=userKey
 encriptStr=encrypt(strKey,message)
 print("Encrypted: "+ encriptStr)
-decrypted=decrypt(strKey,message)
 decryptStr=decrypt(strKey,encriptStr)
-print("Original text): "+ decryptStr)
 print("Decrypted: "+ decryptStr)
